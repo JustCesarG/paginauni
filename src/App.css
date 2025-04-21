@@ -1,0 +1,71 @@
+/* Estilos generales */
+.App {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Contenedor del menú */
+aside {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  transition: transform 0.3s ease;
+}
+
+/* Contenido principal */
+main {
+  flex: 1;
+  margin-left: 250px;
+  padding: 20px;
+  background-color: #fff;
+  transition: margin-left 0.3s ease;
+}
+
+/* Botón de hamburguesa */
+.menu-toggle-button {
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 200;
+  background: #f8f9fa;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  font-size: 1.2rem;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  aside {
+    transform: translateX(-100%);
+    width: 280px;
+  }
+  
+  .menu-open aside {
+    transform: translateX(0);
+  }
+  
+  main {
+    margin-left: 0;
+  }
+  
+  .menu-toggle-button {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  aside {
+    width: 85%;
+  }
+}
