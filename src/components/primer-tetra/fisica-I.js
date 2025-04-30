@@ -20,7 +20,7 @@ const FisicaI = () => {
                 open={openUnit === 1}
                 onToggle={handleToggle(1)}
             >
-                <summary>Unidad I.</summary>
+                <summary>Unidad I.Tiro parabólico</summary>
                 <div class="content">
                     
                 </div>
@@ -30,7 +30,7 @@ const FisicaI = () => {
                 open={openUnit === 2}
                 onToggle={handleToggle(2)}
             >
-                <summary>Unidad II.</summary>
+                <summary>Unidad II. Movimiento rotacional</summary>
             
                 <div class="content"></div>
 
@@ -40,7 +40,7 @@ const FisicaI = () => {
                 open={openUnit === 3}
                 onToggle={handleToggle(3)}
             >
-                <summary>Unidad III.</summary>
+                <summary>Unidad III. Conservación de la energía</summary>
                 
                 <div class="content"></div>
             </details>
@@ -49,7 +49,7 @@ const FisicaI = () => {
                 open={openUnit === 4}
                 onToggle={handleToggle(4)}
             >
-                <summary>Unidad IV.</summary>
+                <summary>Unidad IV. Principio de Arquímedes</summary>
                 
                 <div class="content"></div>
             </details>

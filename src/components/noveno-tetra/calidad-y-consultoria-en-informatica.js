@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../../styles/styles.css';
 
 
-const Algebra = () => {
+const Calidadyconsultoriaeninformatica = () => {
     const [openUnit, setOpenUnit] = useState(null);
 
     const handleToggle = (unitNumber) => (e) => {
@@ -14,7 +14,7 @@ const Algebra = () => {
 
     return (
         <div class="contenido">
-            <h1>Algebra</h1>
+            <h1>Calidad y consultoria en informatica</h1>
 
             <details
                 open={openUnit === 1}
@@ -57,4 +57,4 @@ const Algebra = () => {
     );
 };
 
-export default Algebra;
+export default Calidadyconsultoriaeninformatica;

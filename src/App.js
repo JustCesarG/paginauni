@@ -146,7 +146,7 @@ const App = () => {
       label: 'Sexto tetramestre',
       submenu: [
         { id: 6.1, label: 'Investigación de operaciones', path: '/sexto-tetra/investigacion-de-operaciones', component: Investigaciondeoperaciones }, // Agrega 'path' y 'component'
-        { id: 6.2, label: 'Principios de la inteligencia artificial', path: '/sexto-tetra/principios-de-la-inteligencia-artifical', component: Principiosdelainteligenciaartificial }, // Agrega 'path' y 'component'
+        { id: 6.2, label: 'Principios de la inteligencia artificial', path: '/sexto-tetra/principios-de-la-inteligencia-artificial', component: Principiosdelainteligenciaartificial }, // Agrega 'path' y 'component'
         { id: 6.3, label: 'Desarrollo web', path: '/sexto-tetra/desarrollo-web', component: Desarrolloweb }, // Agrega 'path' y 'component'
         { id: 6.4, label: 'Sistemas cliente-servidor', path: '/sexto-tetra/sistemas-cliente-servidor', component: Sistemasclienteservidor }, // Agrega 'path' y 'component'
         { id: 6.5, label: 'Mantenimiento de sistemas de información', path: '/sexto-tetra/mantenimiento-de-sistemas-de-informacion', component: Mantenimientodesistemasdeinformacion }, // Agrega 'path' y 'component'
@@ -185,7 +185,7 @@ const App = () => {
         { id: 9.2, label: 'Minería de datos e inteligencia de negocios', path: '/noveno-tetra/mineria-de-datos-e-inteligencia-de-negocios', component: Mineriadedatoseinteligenciadenegocios }, // Agrega 'path' y 'component'
         { id: 9.3, label: 'Internet de las cosas', path: '/noveno-tetra/internet-de-las-cosas', component: Internetdelascosas }, // Agrega 'path' y 'component'
         { id: 9.4, label: 'Unidades de informática en las organizaciones', path: '/noveno-tetra/unidades-de-informatica-en-las-organizaciones', component: Unidadesdeinformaticaenlasorganizaciones }, // Agrega 'path' y 'component'
-        { id: 9.5, label: 'Calidad y consultoría en informática', path: '/noveno-tetra/calidad-yconsultoria-en-informatica', component: Calidadyconsultoriaeninformatica }, // Agrega 'path' y 'component'
+        { id: 9.5, label: 'Calidad y consultoría en informática', path: '/noveno-tetra/calidad-y-consultoria-en-informatica', component: Calidadyconsultoriaeninformatica }, // Agrega 'path' y 'component'
         { id: 9.6, label: 'Emprendimiento', path: '/noveno-tetra/emprendimiento', component: Emprendimiento }, // Agrega 'path' y 'component'
       ],
     },
@@ -237,7 +237,7 @@ const App = () => {
             <Route path="/tercer-tetra/probabilidad-y-estadistica" element={<Probabilidadyestadistica />} />
             <Route path="/tercer-tetra/programacion-orientada-a-objetos" element={<Programacionorientadaaobjetos />} />
 
-            <Route path="/cuarto-tetra/base-de-datos-no-relacionales" element={<Basesdedatosnorelacionales />} />
+            <Route path="/cuarto-tetra/bases-de-datos-no-relacionales" element={<Basesdedatosnorelacionales />} />
             <Route path="/cuarto-tetra/desarrollo-sustentable" element={<Desarrollosustentable />} />
             <Route path="/cuarto-tetra/estadistica-multivariada" element={<Estadisticamultivariada />} />
             <Route path="/cuarto-tetra/lenguaje-ensamblador" element={<Lenguajeensamblador />} />
